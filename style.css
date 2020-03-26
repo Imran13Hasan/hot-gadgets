@@ -48,7 +48,14 @@ body{
     text-decoration: none;
     font-weight: 600;
     border: none;
-    border-radius: 9px;  
+    border-radius: 9px; 
+
+}
+
+.buy-now-btn:hover{
+    background-color: orange;
+    color: black;
+    font-weight: 600;
 }
 
 .carousel-indicators li {
@@ -131,6 +138,12 @@ body{
     border: none;
     border-radius: 9px; 
 }
+
+.card-btn:hover{
+    background-color: orange;
+    color: rgb(39, 39, 39);
+    transition: .5s ease;
+}
 /* laptop/smartphone section - start  */
 
 /* Categories Section - Start  */
@@ -154,11 +167,12 @@ body{
 }
 
 .cate-shadow {
-    padding: 30px 40px;
+    padding: 40px 50px;
     border: none;
     border-radius: 0px 15px 0px 15px;
     box-shadow: 1px 1px 36px -4px lightgrey;
 }
+
 
 .beauty-shoes{
     margin-top: 30px;
