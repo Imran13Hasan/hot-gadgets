@@ -1,0 +1,187 @@
+body{
+/* background image - start */
+    font-family: 'Raleway', sans-serif;
+    background-image: url("bg/slider-bg-dot.png");
+    background-repeat: no-repeat;
+    background-position: top 480px left -25px;
+    background-size: 180px;    
+}
+/* background image - end  */
+
+.container{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+#slider-bg{
+    
+}
+/* carousel / slider - start */
+.slider-bg-img{
+    background-image: url("bg/slider-bg-text.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 65px;
+}
+
+.slider-text{
+    color: black;
+}
+
+.slider-text h1{
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.slider-text p{
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.buy-now-btn{
+    padding: 15px 28px;
+    background-color: #1d1d1d;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    border: none;
+    border-radius: 9px;  
+}
+
+.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 33px;
+    height: 8px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-image: linear-gradient(100deg, #FF9C35, #FFD019);
+    background-clip: padding-box;
+    /* border-top: 10px solid #22ff34fd;
+    border-bottom: 10px solid #ff0000ef; */
+    border: none;
+    border-radius: 10px;
+    opacity: .08;
+    transition: opacity  .6s ease;
+}
+/* carousel / slider - end */
+
+/* laptop/smartphone section - start  */
+.heading h3{
+    font-weight: 600;
+
+}
+
+.heading a{
+    text-decoration: none;
+    color: #FF9D00;
+    font-weight: 600;
+}
+
+.card {
+    text-align: center;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: none;
+    border-radius: .25rem;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+.card img{
+    padding-top: 15px;
+    width: 80%;
+}
+
+.card-title{
+    font-weight: 600;
+}
+
+.card-price {
+    font-size: 21px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.card-footer {
+    padding: 1.5rem 1.25rem;
+    border: none;
+    background-color: white;
+    margin-top: -37px;
+}
+
+.card-footer> .card-btn{
+    padding: 9px 17px;
+    background-color: #1d1d1d;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    border: none;
+    border-radius: 9px; 
+}
+/* laptop/smartphone section - start  */
+
+/* Categories Section - Start  */
+.cate{
+    text-align: center;
+}
+
+.cate categories{
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.orange-line {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    background-image: linear-gradient(45deg, #FFD019, #FF9C35 );
+    width: 134px;
+    height: 8px;
+    border-radius: 50px;
+}
+
+.cate-shadow {
+    padding: 30px 40px;
+    border: none;
+    border-radius: 0px 15px 0px 15px;
+    box-shadow: 1px 1px 36px -4px lightgrey;
+}
+
+.beauty-shoes{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.cate-text h5{
+    padding-top: 20px;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.shoes h5 {
+    padding-top: 9px;
+    margin: -21px;
+    padding-bottom: 42px;
+}
+
+#paint img{
+    width: 110%;
+}
+
+footer{
+    text-align: center;
+    padding: 23px;
+}
+
+    
+
